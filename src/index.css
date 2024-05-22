@@ -1,0 +1,48 @@
+/* Grid.css */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tile {
+  min-width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: #61dafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.tile:hover {
+  transform: scale(1.1);
+  background-color: #21a1f1;
+}
+
+/* App.css */
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#outputString {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  display: inline-block;
+}

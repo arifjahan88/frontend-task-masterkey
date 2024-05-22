@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partition {
+  position: relative;
+}
+
+.partition button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.controls {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
